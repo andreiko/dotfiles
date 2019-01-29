@@ -4,7 +4,7 @@ function redis() {
         return
     fi
 
-    hostname=$(grep "^$1:" ~/.redis.lst | cut -f2 -d:)
+    hostname=$(grep "^$1:" ~/.redis.hosts | cut -f2 -d:)
     if [[ ! -z $hostname ]]; then
         redis-cli -h $hostname
     else
