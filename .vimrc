@@ -1,5 +1,5 @@
 syntax on
-colorscheme desert
+colorscheme delek
 
 set autoindent tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 au FileType make set noexpandtab
